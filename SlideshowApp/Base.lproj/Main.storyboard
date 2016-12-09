@@ -25,6 +25,9 @@
                                 <rect key="frame" x="154" y="305" width="67" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="再生/停止"/>
+                                <connections>
+                                    <action selector="start_stopImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTt-XM-4Go"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4C-Zp-Eqk">
                                 <rect key="frame" x="282" y="305" width="31" height="30"/>
@@ -53,6 +56,7 @@
                         <outlet property="ImageView" destination="8Uu-Ze-ctW" id="mF8-O5-GV3"/>
                         <outlet property="backButton" destination="6i7-uR-5g4" id="IxW-nq-NCA"/>
                         <outlet property="goButton" destination="q4C-Zp-Eqk" id="S8J-6H-mCw"/>
+                        <outlet property="start_stopButton" destination="PWW-Nx-KeN" id="vDr-SQ-FIW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
