@@ -12,6 +12,9 @@
 		5DDFE1D81DFAEC9A00E5FEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1D61DFAEC9A00E5FEF8 /* Main.storyboard */; };
 		5DDFE1DA1DFAEC9B00E5FEF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1D91DFAEC9B00E5FEF8 /* Assets.xcassets */; };
 		5DDFE1DD1DFAEC9B00E5FEF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1DB1DFAEC9B00E5FEF8 /* LaunchScreen.storyboard */; };
+		5DDFE1E71DFAED4100E5FEF8 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1E41DFAED4100E5FEF8 /* 3.png */; };
+		5DDFE1E81DFAED4100E5FEF8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1E51DFAED4100E5FEF8 /* 2.png */; };
+		5DDFE1E91DFAED4100E5FEF8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1E61DFAED4100E5FEF8 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5DDFE1D91DFAEC9B00E5FEF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DDFE1DC1DFAEC9B00E5FEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DDFE1DE1DFAEC9B00E5FEF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDFE1E41DFAED4100E5FEF8 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5DDFE1E51DFAED4100E5FEF8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5DDFE1E61DFAED4100E5FEF8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				5DDFE1D91DFAEC9B00E5FEF8 /* Assets.xcassets */,
 				5DDFE1DB1DFAEC9B00E5FEF8 /* LaunchScreen.storyboard */,
 				5DDFE1DE1DFAEC9B00E5FEF8 /* Info.plist */,
+				5DDFE1E41DFAED4100E5FEF8 /* 3.png */,
+				5DDFE1E51DFAED4100E5FEF8 /* 2.png */,
+				5DDFE1E61DFAED4100E5FEF8 /* 1.png */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					5DDFE1CE1DFAEC9800E5FEF8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JPU48P9BR3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +135,10 @@
 			files = (
 				5DDFE1DD1DFAEC9B00E5FEF8 /* LaunchScreen.storyboard in Resources */,
 				5DDFE1DA1DFAEC9B00E5FEF8 /* Assets.xcassets in Resources */,
+				5DDFE1E81DFAED4100E5FEF8 /* 2.png in Resources */,
+				5DDFE1E91DFAED4100E5FEF8 /* 1.png in Resources */,
 				5DDFE1D81DFAEC9A00E5FEF8 /* Main.storyboard in Resources */,
+				5DDFE1E71DFAED4100E5FEF8 /* 3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +271,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPU48P9BR3;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kenren.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +285,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPU48P9BR3;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kenren.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
