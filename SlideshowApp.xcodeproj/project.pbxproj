@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DCBB22B1DFCF75300920B72 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCBB22A1DFCF75300920B72 /* ZoomViewController.swift */; };
 		5DDFE1D31DFAEC9900E5FEF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFE1D21DFAEC9900E5FEF8 /* AppDelegate.swift */; };
 		5DDFE1D51DFAEC9A00E5FEF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFE1D41DFAEC9A00E5FEF8 /* ViewController.swift */; };
 		5DDFE1D81DFAEC9A00E5FEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFE1D61DFAEC9A00E5FEF8 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DCBB22A1DFCF75300920B72 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		5DDFE1CF1DFAEC9900E5FEF8 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFE1D21DFAEC9900E5FEF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDFE1D41DFAEC9A00E5FEF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				5DDFE1D21DFAEC9900E5FEF8 /* AppDelegate.swift */,
 				5DDFE1D41DFAEC9A00E5FEF8 /* ViewController.swift */,
+				5DCBB22A1DFCF75300920B72 /* ZoomViewController.swift */,
 				5DDFE1D61DFAEC9A00E5FEF8 /* Main.storyboard */,
 				5DDFE1D91DFAEC9B00E5FEF8 /* Assets.xcassets */,
 				5DDFE1DB1DFAEC9B00E5FEF8 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDFE1D51DFAEC9A00E5FEF8 /* ViewController.swift in Sources */,
+				5DCBB22B1DFCF75300920B72 /* ZoomViewController.swift in Sources */,
 				5DDFE1D31DFAEC9900E5FEF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +318,7 @@
 				5DDFE1E31DFAEC9B00E5FEF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
