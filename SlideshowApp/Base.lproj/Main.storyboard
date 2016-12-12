@@ -23,21 +23,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWW-Nx-KeN">
-                                <rect key="frame" x="154" y="305" width="67" height="30"/>
-                                <state key="normal" title="再生/停止"/>
+                                <rect key="frame" x="172" y="318.5" width="31" height="30"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="start_stopImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTt-XM-4Go"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4C-Zp-Eqk">
-                                <rect key="frame" x="282" y="305" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4C-Zp-Eqk">
+                                <rect key="frame" x="278" y="318.5" width="31" height="30"/>
                                 <state key="normal" title="進む"/>
                                 <connections>
                                     <action selector="goImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PRQ-4X-jal"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8Uu-Ze-ctW">
-                                <rect key="frame" x="122" y="107" width="131" height="174"/>
+                                <rect key="frame" x="122" y="107" width="131" height="187.5"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                 </accessibility>
@@ -45,8 +45,8 @@
                                     <constraint firstAttribute="width" constant="131" id="XVS-3a-ngO"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6i7-uR-5g4">
-                                <rect key="frame" x="66" y="305" width="31" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6i7-uR-5g4">
+                                <rect key="frame" x="66" y="318.5" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="backImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDN-Lv-DdT"/>
@@ -55,14 +55,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6i7-uR-5g4" firstAttribute="baseline" secondItem="PWW-Nx-KeN" secondAttribute="baseline" id="Elr-mV-9Rw"/>
+                            <constraint firstItem="PWW-Nx-KeN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5ir-Pf-5Cq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q4C-Zp-Eqk" secondAttribute="trailing" constant="50" id="Jkk-yw-Cb4"/>
+                            <constraint firstItem="q4C-Zp-Eqk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QgB-tL-6Nt"/>
                             <constraint firstItem="8Uu-Ze-ctW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="87" id="UM5-2j-1Yb"/>
                             <constraint firstItem="PWW-Nx-KeN" firstAttribute="top" secondItem="8Uu-Ze-ctW" secondAttribute="bottom" constant="24" id="bgS-sL-yL1"/>
-                            <constraint firstItem="6i7-uR-5g4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fJI-vn-PZs"/>
-                            <constraint firstItem="6i7-uR-5g4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="285" id="gtH-9z-OFH"/>
-                            <constraint firstItem="q4C-Zp-Eqk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jiW-Uz-CsG"/>
+                            <constraint firstItem="6i7-uR-5g4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="c9S-rP-Muc"/>
+                            <constraint firstItem="6i7-uR-5g4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wOx-5p-GCS"/>
                             <constraint firstItem="8Uu-Ze-ctW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xNt-jX-JqO"/>
-                            <constraint firstItem="6i7-uR-5g4" firstAttribute="baseline" secondItem="q4C-Zp-Eqk" secondAttribute="baseline" id="yQM-RS-yna"/>
                             <constraint firstItem="PWW-Nx-KeN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yYY-jJ-xsT"/>
                         </constraints>
                     </view>

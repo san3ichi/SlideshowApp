@@ -47,6 +47,9 @@ class ViewController: UIViewController {
                 zoomViewController.zoom_count = count
                
                 if flag == false{       //この条件をつけないと自動送りする前に拡大した時にエラーになる
+                    backButton.isEnabled = true
+                    goButton.isEnabled = true
+                    start_stopButton.setTitle("再生", for: .normal)
                     timer.invalidate()
                     flag = true
                 }
@@ -85,8 +88,14 @@ class ViewController: UIViewController {
     //再生/停止ボタンの処理
     @IBAction func start_stopImage(_ sender: UIButton) {
         if  flag == true{
+            start_stopButton.setTitle("停止", for: .normal)
+            backButton.isEnabled = false
+            goButton.isEnabled = false
             timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
         }else if flag == false{
+            backButton.isEnabled = true
+            goButton.isEnabled = true
+            start_stopButton.setTitle("再生", for: .normal)
             timer.invalidate()
         }
         flag = !flag
